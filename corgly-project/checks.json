@@ -1,0 +1,70 @@
+{
+  "passed": 16,
+  "checks": [
+    {
+      "check": "Empty list returns 200",
+      "result": "PASS"
+    },
+    {
+      "check": "Empty question returns 400",
+      "result": "PASS"
+    },
+    {
+      "check": "One option returns 400",
+      "result": "PASS"
+    },
+    {
+      "check": "Duplicate options return 400",
+      "result": "PASS"
+    },
+    {
+      "check": "Question above limit returns 400",
+      "result": "PASS"
+    },
+    {
+      "check": "Seven options return 400",
+      "result": "PASS"
+    },
+    {
+      "check": "Create returns 201 and trims whitespace",
+      "result": "PASS"
+    },
+    {
+      "check": "Get returns full poll",
+      "result": "PASS"
+    },
+    {
+      "check": "Vote increments option and total",
+      "result": "PASS"
+    },
+    {
+      "check": "Invalid option returns 400",
+      "result": "PASS"
+    },
+    {
+      "check": "Missing poll returns 404",
+      "result": "PASS"
+    },
+    {
+      "check": "Unconfigured Slack returns 503",
+      "result": "PASS"
+    },
+    {
+      "check": "Mock Slack returns 200",
+      "result": "PASS"
+    },
+    {
+      "check": "Slack payload contains question and count",
+      "result": "PASS"
+    },
+    {
+      "check": "Slack transport failure returns 502",
+      "result": "PASS"
+    },
+    {
+      "check": "Vote persists after reconnect",
+      "result": "PASS"
+    }
+  ],
+  "slack_mode": "mock, no real Slack message sent"
+}
