@@ -1,0 +1,58 @@
+[
+  {
+    "check": "HTML served",
+    "result": "PASS"
+  },
+  {
+    "check": "HTTP create 201",
+    "result": "PASS"
+  },
+  {
+    "check": "HTTP vote 200",
+    "result": "PASS"
+  },
+  {
+    "check": "HTTP read total 1",
+    "result": "PASS"
+  },
+  {
+    "check": "Malformed JSON 400",
+    "result": "PASS"
+  },
+  {
+    "check": "JSON array rejected 400",
+    "result": "PASS"
+  },
+  {
+    "check": "Body above 16KB rejected 400",
+    "result": "PASS"
+  },
+  {
+    "check": "Missing path 404",
+    "result": "PASS"
+  },
+  {
+    "check": "Slack configuration 503",
+    "result": "PASS"
+  },
+  {
+    "check": "10 complete documentation sections",
+    "result": "PASS"
+  },
+  {
+    "check": "Searchable content Анхны санал асуулгаа үүсгэх",
+    "result": "PASS"
+  },
+  {
+    "check": "Searchable content option_id",
+    "result": "PASS"
+  },
+  {
+    "check": "Searchable content 503",
+    "result": "PASS"
+  },
+  {
+    "check": "Searchable content SLACK_WEBHOOK_URL",
+    "result": "PASS"
+  }
+]
